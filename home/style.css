@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 3rem;
+}
+span{
+    font-weight: 600;
+
+}
+.row{
+    display: flex;
+    gap: 10rem;
+    
+}
+.detail{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+margin-bottom:2rem ;
+}
+.coloum{
+    font-weight: 600;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+  
+}
+input{
+    width: 100%;
+    margin-bottom:2rem ;
+}
+input:focus{
+    outline: none;
+}
+.post-office-detail{
+    padding: 1rem;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.2rem;
+    width: 17rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+.post-office{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#card{
+    display: flex;
+    flex-flow:  wrap;
+    justify-content: space-between;
+   
+    width: fit-content;
+}
+.cardinner{
+    padding: 1rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.2rem;
+    width: 17rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
